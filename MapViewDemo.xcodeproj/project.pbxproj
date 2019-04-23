@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121595BB226EA810005E6097 /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121595BA226EA810005E6097 /* WeatherFetcher.swift */; };
 		1257A34F21B1A910004AC920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257A34E21B1A910004AC920 /* AppDelegate.swift */; };
 		1257A35121B1A910004AC920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257A35021B1A910004AC920 /* ViewController.swift */; };
 		1257A35421B1A910004AC920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257A35221B1A910004AC920 /* Main.storyboard */; };
 		1257A35621B1A912004AC920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1257A35521B1A912004AC920 /* Assets.xcassets */; };
 		1257A35921B1A912004AC920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1257A35721B1A912004AC920 /* LaunchScreen.storyboard */; };
+		1257A36121B1ADBE004AC920 /* ExtraInfoViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1257A36021B1ADBE004AC920 /* ExtraInfoViewcontroller.swift */; };
+		12A2CBEC226F434B0002FE80 /* WeatherFetcherStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2CBEB226F434B0002FE80 /* WeatherFetcherStarter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1257A34B21B1A910004AC920 /* Expendable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expendable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		121595BA226EA810005E6097 /* WeatherFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
+		1257A34B21B1A910004AC920 /* MapViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1257A34E21B1A910004AC920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1257A35021B1A910004AC920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1257A35321B1A910004AC920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1257A35521B1A912004AC920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1257A35821B1A912004AC920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1257A35A21B1A912004AC920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1257A36021B1ADBE004AC920 /* ExtraInfoViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraInfoViewcontroller.swift; sourceTree = "<group>"; };
+		12A2CBEB226F434B0002FE80 /* WeatherFetcherStarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetcherStarter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		1257A34221B1A910004AC920 = {
 			isa = PBXGroup;
 			children = (
-				1257A34D21B1A910004AC920 /* Expendable */,
+				1257A34D21B1A910004AC920 /* MapViewDemo */,
 				1257A34C21B1A910004AC920 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,33 @@
 		1257A34C21B1A910004AC920 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1257A34B21B1A910004AC920 /* Expendable.app */,
+				1257A34B21B1A910004AC920 /* MapViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1257A34D21B1A910004AC920 /* Expendable */ = {
+		1257A34D21B1A910004AC920 /* MapViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				1257A34E21B1A910004AC920 /* AppDelegate.swift */,
 				1257A35021B1A910004AC920 /* ViewController.swift */,
+				12A2CBEB226F434B0002FE80 /* WeatherFetcherStarter.swift */,
 				1257A35221B1A910004AC920 /* Main.storyboard */,
 				1257A35521B1A912004AC920 /* Assets.xcassets */,
 				1257A35721B1A912004AC920 /* LaunchScreen.storyboard */,
 				1257A35A21B1A912004AC920 /* Info.plist */,
+				1257A36021B1ADBE004AC920 /* ExtraInfoViewcontroller.swift */,
+				121595BA226EA810005E6097 /* WeatherFetcher.swift */,
 			);
-			path = Expendable;
+			path = MapViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1257A34A21B1A910004AC920 /* Expendable */ = {
+		1257A34A21B1A910004AC920 /* MapViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1257A35D21B1A912004AC920 /* Build configuration list for PBXNativeTarget "Expendable" */;
+			buildConfigurationList = 1257A35D21B1A912004AC920 /* Build configuration list for PBXNativeTarget "MapViewDemo" */;
 			buildPhases = (
 				1257A34721B1A910004AC920 /* Sources */,
 				1257A34821B1A910004AC920 /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Expendable;
+			name = MapViewDemo;
 			productName = Expendable;
-			productReference = 1257A34B21B1A910004AC920 /* Expendable.app */;
+			productReference = 1257A34B21B1A910004AC920 /* MapViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1257A34621B1A910004AC920 /* Build configuration list for PBXProject "Expendable" */;
+			buildConfigurationList = 1257A34621B1A910004AC920 /* Build configuration list for PBXProject "MapViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1257A34A21B1A910004AC920 /* Expendable */,
+				1257A34A21B1A910004AC920 /* MapViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121595BB226EA810005E6097 /* WeatherFetcher.swift in Sources */,
+				1257A36121B1ADBE004AC920 /* ExtraInfoViewcontroller.swift in Sources */,
+				12A2CBEC226F434B0002FE80 /* WeatherFetcherStarter.swift in Sources */,
 				1257A35121B1A910004AC920 /* ViewController.swift in Sources */,
 				1257A34F21B1A910004AC920 /* AppDelegate.swift in Sources */,
 			);
@@ -284,7 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGZ6V538F3;
-				INFOPLIST_FILE = Expendable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MapViewDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGZ6V538F3;
-				INFOPLIST_FILE = Expendable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MapViewDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1257A34621B1A910004AC920 /* Build configuration list for PBXProject "Expendable" */ = {
+		1257A34621B1A910004AC920 /* Build configuration list for PBXProject "MapViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1257A35B21B1A912004AC920 /* Debug */,
@@ -326,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1257A35D21B1A912004AC920 /* Build configuration list for PBXNativeTarget "Expendable" */ = {
+		1257A35D21B1A912004AC920 /* Build configuration list for PBXNativeTarget "MapViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1257A35E21B1A912004AC920 /* Debug */,
